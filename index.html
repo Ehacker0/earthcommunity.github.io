@@ -1,0 +1,92 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+body {
+    background: linear-gradient(45deg,deepskyblue,black);
+}
+body {
+    font-family: "Helvetica Neue",
+	Arial,
+	"Hiragino Kaku Gothic ProN",
+	"Hiragino Sans",
+	Meiryo,
+	sans-serif;
+}
+html, body { margin: 0; text-align: center; padding-top: 50px; }
+  .menu_btn {
+    /* 表示位置(固定:右上) */
+    position: fixed;
+    top:  20px;
+    right: 20px;
+
+    /* 開いたメニューより前面に表示する */
+    z-index: 1000;
+
+    /* ボタンのデザイン */
+    padding: 20px 40px;
+    color:       #Cyan;
+    font-size:   15px;
+    font-weight: bold;
+    border: 2px solid #Cyan;
+    border-radius: 15px;
+    background: #FFFFFF;
+
+    /* カーソルの形を変える */
+    cursor: pointer;
+  }
+    .menu {
+      display: none;
+      width: 100%;
+      background: #191970;
+      position: fixed;
+      top: 0;
+      z-index:999;
+    } 
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<title>Earth Community</title>
+</head>
+<!--
+EEEEEEEEEEE
+EEEEEEEEEEE
+EEEE
+EEEE
+EEEEEEEEEEE
+EEEEEEEEEEE
+EEEE
+EEEE
+EEEEEEEEEEE
+EEEEEEEEEEE  A R T H
+
+Hi! Welcome
+-->
+<body>
+  <div id="wrapper">
+    <div class="menu_btn" class="hover">Menu</div>
+    <div class="menu">
+      <h1>MENU</h1>
+      <a href="index.html" style="text-decoration:none;" class="hover"><font size="4"><font color="Black"><b>TOP</b></a></font></font> &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="download.html" style="text-decoration:none;" class="hover"><font size="4"><font color="Black"><b>DOWNLOAD</b></a></font></font> &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="Discord.html" style="text-decoration:none;" class="hover"><font size="4"><font color="Black"><b>JOIN DISCORD</b></a></font></font> &nbsp;&nbsp;&nbsp;&nbsp;
+      <a href="About.html" style="text-decoration:none;" class="hover"><font size="4"><font color="Black"><b>ABOUT</b></a></font></font><br><br>
+    </div><!-- menu -->
+  </div><!-- wrapper -->
+<script>
+  $('.menu_btn').click(function() {
+    $('.menu').animate({ height: 'toggle' }, 'slow');
+  }); 
+</script> 
+<!--ここから本題(?)-->
+<br><br><font size="7"><font color="White"><b>Welcome!</b></font></font><br><br>
+<font size="5"><font color="White"><b>ようこそ！僕のサイトへ！<br>
+このサイトは、僕(イー)が作ったサイトです。<br><br></font></font>
+<font color="White"><font size="6">イーって誰?</font><br><br>
+<font color="White"><font size="5">ハッキングや、チートの動画を出しているYoutuberです。<br>
+よかったらチャンネル登録もよろしくお願いします。<br>
+このサイトで何をしていくかというと、<br>
+目標などはありませんが、チャット(掲示板)や、ファイルなどを配布する場にしたいです。<br><br>
+それでは楽しんでね！Enjoy!!<br><br><br><br><br></font></font></font>
+<font color="White"><font size="7">TOP</font></font><br><br><br>
+</body>
+</html>
